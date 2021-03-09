@@ -6,7 +6,7 @@
 body {
   font-family: 'DotGothic16',Verdana, Geneva, Tahoma, sans-serif  ;
   /* background: rgb(68, 63, 63); */
-  background: url(../final_project/images/Background\ film\ -\ modern.gif);  
+  background: url(../FinalProjectFrontEnd/images/Background\ film\ -\ modern.gif);  
   opacity: 0.8;
 }
 .header {
