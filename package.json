@@ -4,7 +4,8 @@
   "description": "Final Project | Front End - Online Skate Shop",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start-db": "json-server --watch api/dataBase.json",
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,11 @@
   "bugs": {
     "url": "https://github.com/BuzVictor/FinalProjectFrontEnd/issues"
   },
-  "homepage": "https://github.com/BuzVictor/FinalProjectFrontEnd#readme"
+  "homepage": "https://github.com/BuzVictor/FinalProjectFrontEnd#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "font-awesome": "^4.7.0",
+    "json-server": "^0.16.3",
+    "serve": "^11.3.2"
+  }
 }

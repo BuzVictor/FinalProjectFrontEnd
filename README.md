@@ -10,5 +10,12 @@ Buz Victor
 ### Project init
 `$ npm init`
 
-### Begging Layout
+### Install JSON Server
+`$ npm install --save json-server`
+`$ npm install -g json-server`
+
+### Start JSON server:
+`$ json-server --watch db.json`
+
+### BegginingLayout
 made the navbar and an initial layout (html/css)
