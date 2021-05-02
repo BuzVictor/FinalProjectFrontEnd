@@ -1,13 +1,9 @@
+import {addToCartBtn} from './details.js'
 class UI {
 	constructor() {
 		this.productsDiv = document.getElementById('main');
-		this.title = document.getElementById('productName');
-		this.price = document.getElementById('price');
-		this.image = document.getElementById('image');
-		this.detailsPage= document.getElementById('detailsPage');
-		this.id = document.getElementById('id');
-		this.brand = document.getElementById('brand');
-		this.size = document.getElementById('size');
+		this.detailsPage = document.getElementById('detailsPage');
+		this.cartContainer = document.getElementById('cart-container');
 	}
 	showProducts(products) {
 		let output = '';
@@ -23,7 +19,7 @@ class UI {
 			this.productsDiv.innerHTML += output;
 		});
 	}
-	showProductDetails(product){
+	showProductDetails(product) {
 		let output='';
 		output= `
 		<div class="addProductCard">
@@ -41,13 +37,41 @@ class UI {
         <p class="fade_x2"> ${product.name}</p> 
         <p class="fade_x2"> ${product.size}</p> 
         <p class="fade_x2"> ${product.price}$</p>
-        <button onclick="window.location.href='cart.html?id=${product.id}'"type="button" class="addToCartBtn">Add to cart</button>
+        <button id="${product.id}" type="button" class="addToCartBtn">Add to cart</button>
     </div>
     <img src=${product.image} alt="Skateboard">
 </div>
 		`
 		this.detailsPage.innerHTML += output;
+		addToCartBtn(product.id);
 	}
+
+	showCart (products) {
+		products.forEach((product)=> {
+		let output = 
+		`
+		<div class="cartProducts">
+        <p>${product.brand} ${product.name}</p>
+    </div>
+    <div class="cartProducts-price">
+        <p>${product.price}$</p>
+    </div>
+    <div class="cartProducts-quantity">
+        <div class="cartProducts-quantity-style">
+        <input type="number" value="1"> 
+        <a href="#" onclick="deleteCartProduct(${product.id});" class="removeBtn">X</a>
+        </div>
+    </div>
+		`
+		this.cartContainer.innerHTML += output;
+	   });
+    }
+
 }
 
 export const ui = new UI();
+
+
+
+
+

@@ -6,7 +6,9 @@
             "name":"Astronaut",
             "size":"8.0" ,
             "price":37 ,
-            "image":"images\\Astronaut.jpg"
+            "image":"images\\Astronaut.jpg",
+            "quantity": 2 
+
         },
         {
             "id": "p2",
@@ -14,7 +16,8 @@
             "name":"White Logo" ,
             "size":"8.0 ",
             "price":28 ,
-            "image":"images\\BakerLogoWhite.jpg"
+            "image":"images\\BakerLogoWhite.jpg",
+            "quantity": 2
         },
         {
             "id": "p3",
@@ -22,7 +25,8 @@
             "name":"Banana",
             "size":"7.75",
             "price":32 ,
-            "image":"images\\Banana.jpg"
+            "image":"images\\Banana.jpg",
+            "quantity": 2 
         },
         {
             "id": "p4",
@@ -30,7 +34,8 @@
             "name":"Pink Sunset",
             "size":"7.75",
             "price":40 ,
-            "image":"images\\BlackHill.jpg"
+            "image":"images\\BlackHill.jpg",
+            "quantity": 2
         },
         {
             "id": "p5",
@@ -38,7 +43,8 @@
             "name":"Chinese Dragon",
             "size":"7.75",
             "price":40 ,
-            "image":"images\\ChineseDragon.jpg"
+            "image":"images\\ChineseDragon.jpg",
+            "quantity": 2 
         },
         {
             "id": "p6",
@@ -46,7 +52,8 @@
             "name":"Red Logo",
             "size":"8.0" ,
             "price":25 ,
-            "image":"images\\Flip.jpg"
+            "image":"images\\Flip.jpg",
+            "quantity": 2
         },
         {
             "id": "p7",
@@ -54,7 +61,8 @@
             "name":"Frame",
             "size":"8.0" ,
             "price":35 ,
-            "image":"images\\Globe.jpg"
+            "image":"images\\Globe.jpg",
+            "quantity": 2
         },
         {
             "id": "p8",
@@ -62,7 +70,8 @@
             "name":"Black Gold",
             "size":"8.25",
             "price":27 ,
-            "image":"images\\GlobeBlackGold.jpg"
+            "image":"images\\GlobeBlackGold.jpg",
+            "quantity": 2
         },
         {
             "id": "p9",
@@ -70,7 +79,8 @@
             "name":"Palm",
             "size":"8.0",
             "price":42 ,
-            "image":"images\\GlobePalm.jpg"
+            "image":"images\\GlobePalm.jpg",
+            "quantity": 2
         },
         {
             "id": "p10",
@@ -78,7 +88,8 @@
             "name":"Plain",
             "size":"8.0",
             "price":34 ,
-            "image":"images\\GlobePlain.jpg"
+            "image":"images\\GlobePlain.jpg",
+            "quantity": 2
         },
         {
             "id": "p11",
@@ -86,7 +97,9 @@
             "name":"Wood",
             "size":"8.0" ,
             "price":34 ,
-            "image":"images\\GlobeWood.jpg"
+            "image":"images\\GlobeWood.jpg",
+            "quantity": 2
+
         },
         {
             "id": "p12",
@@ -94,7 +107,8 @@
             "name":"Hippie",
             "size":"7.75",
             "price":29 ,
-            "image":"images\\Hippie.jpg"
+            "image":"images\\Hippie.jpg",
+            "quantity": 2
         },
         {
             "id": "p13",
@@ -102,7 +116,8 @@
             "name":"Iluminati Pizza",
             "size":"8.0",
             "price":37 ,
-            "image":"images\\IluminatiPizza.jpg"
+            "image":"images\\IluminatiPizza.jpg",
+            "quantity": 2
         },
         {
             "id": "p14",
@@ -110,7 +125,9 @@
             "name":"White Logo",
             "size":"8.0",
             "price":44 ,
-            "image":"images\\Jart.jpg"
+            "image":"images\\Jart.jpg",
+            "quantity": 2
+
         },
         {
             "id": "p15",
@@ -118,7 +135,8 @@
             "name":"Leafs",
             "size":"7.75",
             "price":27 ,
-            "image":"images\\Leafs.jpg"
+            "image":"images\\Leafs.jpg",
+            "quantity": 2
         },
         {
             "id": "p16",
@@ -126,7 +144,8 @@
             "name":"SK8 Monkey",
             "size":"8.0",
             "price":32 ,
-            "image":"images\\MutantBlueTongue.jpg"
+            "image":"images\\MutantBlueTongue.jpg",
+            "quantity": 2
         },
         {
             "id": "p17",
@@ -134,7 +153,8 @@
             "name":"Molotov Mutant",
             "size":"8.0",
             "price":32 ,
-            "image":"images\\MutantMolotov.jpg"
+            "image":"images\\MutantMolotov.jpg",
+            "quantity": 2
         },
         {
             "id": "p18",
@@ -142,7 +162,8 @@
             "name":"Pizza Mutant",
             "size":"8.0",
             "price":32 ,
-            "image":"images\\MutantPizza.jpg"
+            "image":"images\\MutantPizza.jpg",
+            "quantity": 2
         },
         {
             "id": "p19",
@@ -150,7 +171,8 @@
             "name":"Hawaii Pizza",
             "size":"8.0",
             "price": 30 ,
-            "image":"images\\PizzaHawaii.jpg"
+            "image":"images\\PizzaHawaii.jpg",
+            "quantity": 2
         },
         {
             "id": "p20",
@@ -158,7 +180,8 @@
             "name":"Rat",
             "size":"7.75" ,
             "price":40 ,
-            "image":"images\\Rat.jpg"
+            "image":"images\\Rat.jpg",
+            "quantity": 2
         },
         {
             "id": "p21",
@@ -166,7 +189,8 @@
             "name":"Splash",
             "size":"8.25",
             "price":40 ,
-            "image":"images\\RobotMulticolor.jpg"
+            "image":"images\\RobotMulticolor.jpg",
+            "quantity": 2
         },
         {
             "id": "p22",
@@ -174,7 +198,8 @@
             "name":"Running Track",
             "size":"8.0",
             "price":25 ,
-            "image":"images\\RunningTrack.jpg"
+            "image":"images\\RunningTrack.jpg",
+            "quantity": 2
         },
         {
             "id": "p23",
@@ -182,7 +207,8 @@
             "name":"Yellow Logo",
             "size":"8.25",
             "price":25 ,
-            "image":"images\\SantaCruz.jpg"
+            "image":"images\\SantaCruz.jpg",
+            "quantity": 2
         },
         {
             "id": "p24",
@@ -190,7 +216,8 @@
             "name":"Saturn",
             "size":"8.0",
             "price":32 ,
-            "image":"images\\Saturn.jpg"
+            "image":"images\\Saturn.jpg",
+            "quantity": 2
         },
         {
             "id": "p25",
@@ -198,7 +225,8 @@
             "name":"Screaming Hand",
             "size":"8.0",
             "price":29 ,
-            "image":"images\\ScreamingHand.jpg"
+            "image":"images\\ScreamingHand.jpg",
+            "quantity": 2
         },
         {
             "id": "p26",
@@ -206,7 +234,8 @@
             "name":"Sky Mutant",
             "size":"7.75",
             "price":32 ,
-            "image":"images\\SkyMutant.jpg"
+            "image":"images\\SkyMutant.jpg",
+            "quantity": 2
         },
         {
             "id": "p27",
@@ -214,7 +243,8 @@
             "name":"T-Rex",
             "size":"8.0",
             "price":40 ,
-            "image":"images\\TRex.jpg"
+            "image":"images\\TRex.jpg",
+            "quantity": 2
         },
         {
             "id": "p28",
@@ -222,7 +252,8 @@
             "name":"Gold Logo" ,
             "size":"8.0" ,
             "price":47 ,
-            "image":"images\\GoldInscription.jpg"
+            "image":"images\\GoldInscription.jpg",
+            "quantity": 2
         },
         {
             "id": "p29",
@@ -230,7 +261,8 @@
             "name":"Footman" ,
             "size":"7.75" ,
             "price":47 ,
-            "image":"images\\SkeletonFootman.jpg"
+            "image":"images\\SkeletonFootman.jpg",
+            "quantity": 2
         },
         {
             "id": "p30",
@@ -238,7 +270,8 @@
             "name":"Skeleton Bard" ,
             "size":"7.75" ,
             "price":47 ,
-            "image":"images\\SkeletonBard.jpg"
+            "image":"images\\SkeletonBard.jpg",
+            "quantity": 2
         }
     ]
 }

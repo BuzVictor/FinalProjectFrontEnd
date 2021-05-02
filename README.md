@@ -19,3 +19,6 @@ Buz Victor
 
 ### BegginingLayout
 made the navbar and an initial layout (html/css)
+### Dynamics/Functionality 
+nearly killed myself trying to make the details page work 
+###
